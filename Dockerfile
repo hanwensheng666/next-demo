@@ -10,7 +10,7 @@ COPY . /home/project/
 WORKDIR /home/project 
 
 RUN npm i
-RUN npm build
+RUN npm run build
 # 向外提供3000端口
 EXPOSE 3000
 # 容器创建完成后执行的命令
