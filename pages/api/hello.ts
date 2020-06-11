@@ -1,5 +1,6 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+let os = require('os');
 
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 // 获取本机ip地址
 function getLocalIpAddress() {
   let ip = '';
