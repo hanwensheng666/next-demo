@@ -12,9 +12,9 @@ services:
         - "my-network"
     command: npm run start
   nginx:
-    image: nginx:latest
+    image: nginx
     ports:
-      - "8080:80"
+      - "65520:80"
     container_name: nginx-node
     restart: always
     volumes: 
