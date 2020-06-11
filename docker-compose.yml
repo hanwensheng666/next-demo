@@ -25,6 +25,6 @@ services:
       - "node"
     depends_on: 
       - "node"
-  networks: 
-    my-network:
-      driver: bridge
+networks: 
+  my-network:
+    driver: bridge
